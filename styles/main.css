@@ -2573,7 +2573,7 @@ textarea.form-control:focus, textarea.form-control:active {
 }
 
 .progress-container.progress-primary .progress {
-  background: rgba(55, 140, 63, 0.4);
+  background: rgba(169, 182, 200, 1);
 }
 
 .progress-container.progress-primary .progress-bar {
@@ -2603,12 +2603,12 @@ textarea.form-control:focus, textarea.form-control:active {
 }
 
 .progress-container.progress-success .progress-bar {
-  background: #18ce0f;
+  background: #a9b6c8;
 }
 
 .progress-container.progress-success .progress-value,
 .progress-container.progress-success .progress-badge {
-  color: #18ce0f;
+  color: #a9b6c8;
 }
 
 .progress-container.progress-warning .progress {
@@ -2674,8 +2674,8 @@ textarea.form-control:focus, textarea.form-control:active {
 }
 
 .badge-success {
-  border-color: #18ce0f;
-  color: #18ce0f;
+  border-color: #a9b6c8;
+  color: #a9b6c8;
 }
 
 .badge-warning {
@@ -2754,8 +2754,8 @@ textarea.form-control:focus, textarea.form-control:active {
 }
 
 .pagination.pagination-success .page-item.active > .page-link, .pagination.pagination-success .page-item.active > .page-link:focus, .pagination.pagination-success .page-item.active > .page-link:hover {
-  background-color: #18ce0f;
-  border-color: #18ce0f;
+  background-color: #a9b6c8;
+  border-color: #a9b6c8;
 }
 
 .pagination.pagination-primary .page-item.active > .page-link, .pagination.pagination-primary .page-item.active > .page-link:focus, .pagination.pagination-primary .page-item.active > .page-link:hover {
