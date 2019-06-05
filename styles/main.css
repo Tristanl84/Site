@@ -7200,7 +7200,10 @@ Created using IcoMoon - icomoon.io
 .cc-contact-information {
   width: 100%;
   position: relative;
-  overflow: hidden;
+  overflow: hidden; 
+  background-position: center;
+  margin-top: -12px;
+  background-repeat: no-repeat;
 }
 
 .cc-contact-information .cc-contact {
