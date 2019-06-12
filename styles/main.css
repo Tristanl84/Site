@@ -1,4 +1,4 @@
-
+body{width:100%;}
 .bootstrap-switch {
   display: inline-block;
   direction: ltr;
@@ -7246,3 +7246,11 @@ a.credit {
 .section {
   padding-bottom: 0;
 }
+
+.col-md-8{
+margin-top: 8%;
+}
+
+.test {
+  margin-left : 25%;
+} 
