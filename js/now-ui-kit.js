@@ -144,11 +144,6 @@ nowuiKit = {
                 transparent = false;
                 $('.navbar[color-on-scroll]').removeClass('navbar-transparent');
             }
-        } else {
-            if (!transparent) {
-                transparent = true;
-                $('.navbar[color-on-scroll]').addClass('navbar-transparent');
-            }
         }
     }, 17),
 
