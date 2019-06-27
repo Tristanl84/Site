@@ -80,7 +80,7 @@ body{width:100%;}
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-green,
 .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-green {
   color: #fff;
-  background: #18ce0f;
+  background: #364860;
 }
 
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-orange,
@@ -240,7 +240,7 @@ body{width:100%;}
 }
 
 .bootstrap-switch.bootstrap-switch-on .bootstrap-switch-green ~ .bootstrap-switch-default {
-  background-color: #18ce0f;
+  background-color: #364860;
 }
 
 .bootstrap-switch.bootstrap-switch-on .bootstrap-switch-brown ~ .bootstrap-switch-default {
@@ -6999,7 +6999,7 @@ Created using IcoMoon - icomoon.io
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
-  color: #fff;
+  color: #364860;
 }
 
 .gallery figure.cc-effect:hover figcaption::after,
