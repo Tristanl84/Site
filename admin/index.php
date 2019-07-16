@@ -18,11 +18,12 @@
   	}  
   }
   else if (isset($_POST["supprimer"])) {
-  	if ($id = $_POST["id"]) {
+  	  $id = $_POST["id"];
   		$sql = "DELETE FROM formation WHERE id = '".$id."'";
-  		mysqli_query($mysqli, $sql);
+      mysqli_query($mysqli, $sql);
+
   		
-  	}
+  	
   } 
 ?>
 
@@ -37,7 +38,7 @@
 <body>
   <h2 class="display-3">Formations</h2>  </tbody>
   
-<form action="index.php" method="post">
+
 <table class="table table-striped">
   <thead>
     <tr>
@@ -54,6 +55,7 @@ $sql = "SELECT * FROM formation";
 if($result = mysqli_query($mysqli, $sql)){
 $num = 1;
 while($row = mysqli_fetch_array($result)){
+  echo "<form action='index.php' method='post'>";
     echo '<tr>';
       echo '<th scope="row">'.$num.'</th>';
       echo '<td>'.$row['name'].'</td>';
@@ -63,6 +65,7 @@ while($row = mysqli_fetch_array($result)){
     echo '<button type="submit" name="supprimer" class="btn btn-primary">Supprimer</button>';
       echo '</td>';
     echo '</tr>';
+    echo '</form>';
 
 $num +=1;      
       
@@ -71,7 +74,7 @@ $num +=1;
 ?>
 </tbody>
 </table>
-</form>
+
 <form action="index.php" method="post">
 <h3 class="display-5">Ajouter une formation:</h3>  
 

@@ -7254,3 +7254,9 @@ margin-top: 8%;
 .test {
   margin-left : 25%;
 } 
+
+.img-fluid{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
