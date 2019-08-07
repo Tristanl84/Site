@@ -4704,6 +4704,10 @@ Created using IcoMoon - icomoon.io
 
 .footer {
   padding: 24px 0;
+  align-content: center;
+  justify-content: center;
+  position: relative; 
+  bottom: 0;
 }
 
 .footer.footer-default {
@@ -7141,7 +7145,7 @@ Created using IcoMoon - icomoon.io
   padding-top: 60px;
   padding-right: 0;
   text-align: center;
-  color: #fff;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
@@ -7261,4 +7265,7 @@ margin-top: 8%;
   margin-right: auto;
   max-width: 75%;
 	height: auto;
+}
+.stylecarte{
+  margin-top: 15%;
 }
