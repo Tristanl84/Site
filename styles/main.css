@@ -3668,7 +3668,6 @@ body {
 img {
     max-width: 100%;
     border-radius: 1px;
-    display: block;
     margin-left: auto;
     margin-right: auto;
 }
