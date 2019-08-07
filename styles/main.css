@@ -3666,8 +3666,11 @@ body {
 }
 
 img {
-  max-width: 100%;
-  border-radius: 1px;
+    max-width: 100%;
+    border-radius: 1px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .img-raised {
@@ -7255,9 +7258,6 @@ a.credit {
 margin-top: 8%;
 }
 
-.test {
-  margin-left : 25%;
-} 
 
 .img-fluid{
   display: block;
